@@ -1,0 +1,100 @@
+html {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: white;
+}
+body {
+  background-color: #d7b8f3;
+}
+.caja {
+  width: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+.caja h1 {
+  font-size: 100px;
+}
+.caja p {
+  font-size: 50px;
+  text-align: center;
+}
+.sentimientos {
+  background-color: #d7b8f3;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.titulo h2 {
+  padding-top: 30px;
+}
+.memorias {
+  background-color: #f397d6;
+}
+.promesas {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.promesas li {
+  width: 40%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 3%;
+  padding: 30 px 30 px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.promesas h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5% 0;
+}
+.promesas p {
+  padding: 6px 15px;
+}
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.foto,
+.foto-horizontal {
+  margin: 20px 0;
+  text-align: center;
+}
+.foto p,
+.foto-horizontal p {
+  width: 400px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 1em;
+  /* border-radius: 20px; */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+footer {
+  background-color: white;
+}
+.leyenda {
+  padding: 50px;
+  margin-left: 50px;
+  font-size: 40px;
+}
